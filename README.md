@@ -13,7 +13,7 @@
 </p>&nbsp;</td></tr></table>
 
 <table>
-  <tr><td align="center" width="99999">BUILT WITH</td></tr>
+  <tr><th align="center" width="99999">BUILT WITH</th></tr>
   <tr><td align="center" width="99999"><p>
     <a href="https://wikipedia.org/wiki/markdown"><img src=".assets/markdown.svg" alt="markdown" align="center" width="52"></a>
     <a href="https://wikipedia.org/wiki/svg"><img src=".assets/svg.svg" alt="svg" align="center" width="52"></a>
