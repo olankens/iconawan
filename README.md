@@ -12,13 +12,16 @@
   Technology logo pack intended for very seamless integration into README.md files or other visual assets, provided as single SVGs with built-in full dark mode support for optimal flexibility and consistency.
 </p>&nbsp;</td></tr></table>
 
-<table><tr><td align="center" width="99999"><p>
-  <a href="https://wikipedia.org/wiki/markdown"><img src=".assets/markdown.svg" alt="markdown" align="center" width="52"></a>
-  <a href="https://wikipedia.org/wiki/svg"><img src=".assets/svg.svg" alt="svg" align="center" width="52"></a>
-  <a href="https://figma.com"><img src=".assets/figma.svg" alt="figma" align="center" width="52"></a>
-  <a href="https://cgit.git.savannah.gnu.org/cgit/bash.git"><img src=".assets/bash.svg" alt="bash" align="center" width="52"></a>
-  <a href="https://github.com/features/actions"><img src=".assets/githubactions.svg" alt="github-actions" align="center" width="52"></a>
-</p></td></tr></table>
+<table>
+  <tr><td align="center" width="99999">BUILT WITH</td></tr>
+  <tr><td align="center" width="99999"><p>
+    <a href="https://wikipedia.org/wiki/markdown"><img src=".assets/markdown.svg" alt="markdown" align="center" width="52"></a>
+    <a href="https://wikipedia.org/wiki/svg"><img src=".assets/svg.svg" alt="svg" align="center" width="52"></a>
+    <a href="https://figma.com"><img src=".assets/figma.svg" alt="figma" align="center" width="52"></a>
+    <a href="https://cgit.git.savannah.gnu.org/cgit/bash.git"><img src=".assets/bash.svg" alt="bash" align="center" width="52"></a>
+    <a href="https://github.com/features/actions"><img src=".assets/githubactions.svg" alt="github-actions" align="center" width="52"></a>
+  </p></td></tr>
+</table>
 
 ### FEATURES
 
