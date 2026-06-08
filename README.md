@@ -104,9 +104,6 @@
     <td align="center" width="99999"><img src="source/ubuntu.svg" align="center" width="52"></td>
     <td align="center" width="99999"><img src="source/windows.svg" align="center" width="52"></td>
   </tr></tbody>
-  <tbody><tr>
-    <td align="center" width="99999"><img src="source/zod.svg" align="center" width="52"></td>
-  </tr></tbody>
 </table>
 <!-- CEASE_TABLE -->
 

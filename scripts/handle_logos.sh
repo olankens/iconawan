@@ -3,6 +3,13 @@
 DIR="$(cd "$(dirname "$0")" && pwd)"
 SRC="$DIR/../source/raw"
 
+# Create source/raw directory
+mkdir -p "$SRC"
+
+# Ensure source/raw is not empty
+[[ -z "$(ls -A "$SRC" 2>/dev/null)" ]] && exit 1
+
+# Handle svg images
 for svg in "$SRC"/*.svg; do
   filename=$(basename "$svg")
   sed 's|<svg\([^>]*\)>|<svg\1><style>@media(prefers-color-scheme:dark){path{fill:white}}</style>|' "$svg" >"$DIR/../source/$filename"
