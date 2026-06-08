@@ -1,6 +1,6 @@
 <div align="center">
   <p><img src=".assets/icon.png" align="center" width="128"></p>
-  <h1>LOGOMAIN</h1>
+  <h1><samp>LOGOMAIN</samp></h1>
 </div>
 
 <table><tr><td align="center" width="99999"><p>
@@ -117,7 +117,7 @@
 
 ### LEARNING
 
-#### Creating Markdown Logo Banner
+#### Creating Logo Banner
 
 ##### 1. Banner Preview
 
