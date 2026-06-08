@@ -126,6 +126,7 @@
   <a href="https://chromium.org/developers"><img src="source/chromium.svg" alt="chromium" align="center" width="52"></a>
   <a href="https://jetbrains.com/idea"><img src="source/intellijidea.svg" alt="intellij-idea" align="center" width="52"></a>
   <a href="https://kotlinlang.org"><img src="source/kotlin.svg" alt="kotlin" align="center" width="52"></a>
+  <a href="https://kubernetes.io"><img src="source/kubernetes.svg" alt="kubernetes" align="center" width="52"></a>
   <a href="https://spring.io"><img src="source/spring.svg" alt="spring" align="center" width="52"></a>
 </p></td></tr></table>
 
@@ -134,7 +135,7 @@
 ```sh
 deposit=".assets" && mkdir -p "$deposit"
 baseurl="https://github.com/olankens/logomain/raw/HEAD/source"
-for f in {angular,chromium,intellijidea,kotlin,spring}; do
+for f in {angular,chromium,intellijidea,kotlin,spring,kubernetes}; do
   curl -Lo "$deposit/$f.svg" "$baseurl/$f.svg"
 done
 ```
@@ -143,10 +144,47 @@ done
 
 ```md
 <table><tr><td align="center" width="99999"><p>
-  <a href="https://angular.dev"><img src="source/angular.svg" alt="angular" align="center" width="52"></a>
-  <a href="https://chromium.org/developers"><img src="source/chromium.svg" alt="chromium" align="center" width="52"></a>
-  <a href="https://jetbrains.com/idea"><img src="source/intellijidea.svg" alt="intellij-idea" align="center" width="52"></a>
-  <a href="https://kotlinlang.org"><img src="source/kotlin.svg" alt="kotlin" align="center" width="52"></a>
-  <a href="https://spring.io"><img src="source/spring.svg" alt="spring" align="center" width="52"></a>
+  <a href="https://angular.dev"><img src=".assets/angular.svg" alt="angular" align="center" width="52"></a>
+  <a href="https://chromium.org/developers"><img src=".assets/chromium.svg" alt="chromium" align="center" width="52"></a>
+  <a href="https://jetbrains.com/idea"><img src=".assets/intellijidea.svg" alt="intellij-idea" align="center" width="52"></a>
+  <a href="https://kotlinlang.org"><img src=".assets/kotlin.svg" alt="kotlin" align="center" width="52"></a>
+  <a href="https://kubernetes.io"><img src=".assets/kubernetes.svg" alt="kubernetes" align="center" width="52"></a>
+  <a href="https://spring.io"><img src=".assets/spring.svg" alt="spring" align="center" width="52"></a>
 </p></td></tr></table>
+```
+
+#### Creating Logo Table
+
+##### 1. Banner Preview
+
+<table><tr>
+  <td align="center" width="999999"><a href="https://angular.dev"><img src="source/angular.svg" alt="angular" align="center" width="52"></a></td>
+  <td align="center" width="999999"><a href="https://chromium.org/developers"><img src="source/chromium.svg" alt="chromium" align="center" width="52"></a></td>
+  <td align="center" width="999999"><a href="https://jetbrains.com/idea"><img src="source/intellijidea.svg" alt="intellij-idea" align="center" width="52"></a></td>
+  <td align="center" width="999999"><a href="https://kotlinlang.org"><img src="source/kotlin.svg" alt="kotlin" align="center" width="52"></a></td>
+  <td align="center" width="999999"><a href="https://kubernetes.io"><img src="source/kubernetes.svg" alt="kubernetes" align="center" width="52"></a></td>
+  <td align="center" width="999999"><a href="https://spring.io"><img src="source/spring.svg" alt="spring" align="center" width="52"></a></td>
+</tr></table>
+
+##### 2. Gather the Logos
+
+```sh
+deposit=".assets" && mkdir -p "$deposit"
+baseurl="https://github.com/olankens/logomain/raw/HEAD/source"
+for f in {angular,chromium,intellijidea,kotlin,spring,kubernetes}; do
+  curl -Lo "$deposit/$f.svg" "$baseurl/$f.svg"
+done
+```
+
+##### 3. Create the Banner
+
+```md
+<table><tr>
+  <td align="center" width="999999"><a href="https://angular.dev"><img src=".assets/angular.svg" alt="angular" align="center" width="52"></a></td>
+  <td align="center" width="999999"><a href="https://chromium.org/developers"><img src=".assets/chromium.svg" alt="chromium" align="center" width="52"></a></td>
+  <td align="center" width="999999"><a href="https://jetbrains.com/idea"><img src=".assets/intellijidea.svg" alt="intellij-idea" align="center" width="52"></a></td>
+  <td align="center" width="999999"><a href="https://kotlinlang.org"><img src=".assets/kotlin.svg" alt="kotlin" align="center" width="52"></a></td>
+  <td align="center" width="999999"><a href="https://kubernetes.io"><img src=".assets/kubernetes.svg" alt="kubernetes" align="center" width="52"></a></td>
+  <td align="center" width="999999"><a href="https://spring.io"><img src=".assets/spring.svg" alt="spring" align="center" width="52"></a></td>
+</tr></table>
 ```
