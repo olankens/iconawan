@@ -4,10 +4,6 @@
 # MacOS
 .DS_Store
 
-# Node
-node_modules/
-package-lock.json
-
 # Project
 source/raw/
 
