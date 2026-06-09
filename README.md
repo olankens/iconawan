@@ -107,9 +107,12 @@
   <tbody><tr>
     <td align="center" width="99999"><img src="source/storybook.svg" align="center" width="52"></td>
     <td align="center" width="99999"><img src="source/svg.svg" align="center" width="52"></td>
+    <td align="center" width="99999"><img src="source/tmdb.svg" align="center" width="52"></td>
     <td align="center" width="99999"><img src="source/turborepo.svg" align="center" width="52"></td>
     <td align="center" width="99999"><img src="source/typescript.svg" align="center" width="52"></td>
     <td align="center" width="99999"><img src="source/ubuntu.svg" align="center" width="52"></td>
+  </tr></tbody>
+  <tbody><tr>
     <td align="center" width="99999"><img src="source/windows.svg" align="center" width="52"></td>
   </tr></tbody>
 </table>
