@@ -8,11 +8,11 @@ MAX=6
 # Create table
 out="<!-- START_TABLE -->\n<table>\n" && i=0
 for f in "$SRC"/*.svg; do
-  name="$(basename "$f")"
-  [ $((i % MAX)) -eq 0 ] && out+="  <tbody><tr>\n"
-  out+="    <td align=\"center\" width=\"99999\"><img src=\"source/$name\" align=\"center\" width=\"56\"></td>\n"
-  i=$((i + 1))
-  [ $((i % MAX)) -eq 0 ] && out+="  </tr></tbody>\n"
+	name="$(basename "$f")"
+	[ $((i % MAX)) -eq 0 ] && out+="  <tbody><tr>\n"
+	out+="    <td align=\"center\" width=\"99999\"><img src=\"source/$name\" align=\"center\" width=\"56\"></td>\n"
+	i=$((i + 1))
+	[ $((i % MAX)) -eq 0 ] && out+="  </tr></tbody>\n"
 done
 [ $((i % MAX)) -ne 0 ] && out+="  </tr></tbody>\n"
 out+="</table>\n<!-- CEASE_TABLE -->"
