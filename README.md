@@ -128,7 +128,7 @@
 
 ### CREATING ICON BANNER
 
-#### 1. Banner Preview
+[//]: # (#### 1. Banner Preview)
 
 <table><tr>
   <td align="center" width="999999"><a href="https://angular.dev"><img src="source/angular.svg" alt="angular" align="center" width="56"></a></td>
@@ -139,17 +139,17 @@
   <td align="center" width="999999"><a href="https://spring.io"><img src="source/spring.svg" alt="spring" align="center" width="56"></a></td>
 </tr></table>
 
-#### 2. Gather the Logos
+[//]: # (#### 2. Gather the Logos)
 
 ```sh
 deposit=".assets" && mkdir -p "$deposit"
-baseurl="https://github.com/olankens/logomain/raw/HEAD/source"
+baseurl="https://github.com/olankens/iconawan/raw/HEAD/source"
 for f in {angular,chromium,intellijidea,kotlin,spring,kubernetes}; do
   curl -Lo "$deposit/$f.svg" "$baseurl/$f.svg"
 done
 ```
 
-#### 3. Create the Banner
+[//]: # (#### 3. Create the Banner)
 
 ```md
 <table><tr>
