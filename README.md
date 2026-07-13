@@ -147,7 +147,7 @@
 deposit=".assets" && mkdir -p "$deposit"
 baseurl="https://github.com/olankens/iconawan/raw/HEAD/source"
 for f in {angular,chromium,kotlin,kubernetes,spring}; do
-	curl -Lo "$deposit/$f.svg" "$baseurl/icon-$f.svg"
+	curl -Lo "$deposit/icon-$f.svg" "$baseurl/$f.svg"
 done
 ```
 
