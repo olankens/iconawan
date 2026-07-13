@@ -4,20 +4,24 @@
 </div>
 
 <table>
-  <tbody><tr><td align="center" colspan="5" width="99999"><div>
+  <tbody><tr><td align="center" width="99999"><div>
     <a href="https://olankens.com">WEBSITE</a> ·
     <a href="https://ko-fi.com/olankens">FUNDING</a>
   </div></td></tr></tbody>
-  <tbody><tr><td align="center" colspan="5" width="99999">&nbsp;<div>
+  <tbody><tr><td align="center" width="99999">&nbsp;<div>
     SVG technology icons built for seamless README.md integration and visual assets, each as standalone files with native dark mode support, ensuring optimal flexibility across all environments and consistent branding without extra configuration.
   </div>&nbsp;</td></tr></tbody>
-  <tbody><tr>
-    <td align="center" width="999999"><a href="#"><img src=".assets/icon-svg.svg" alt="svg" align="center" width="56"></a></td>
-    <td align="center" width="999999"><a href="#"><img src=".assets/icon-figma.svg" alt="figma" align="center" width="56"></a></td>
-    <td align="center" width="999999"><a href="#"><img src=".assets/icon-markdown.svg" alt="markdown" align="center" width="56"></a></td>
-    <td align="center" width="999999"><a href="#"><img src=".assets/icon-bash.svg" alt="bash" align="center" width="56"></a></td>
-    <td align="center" width="999999"><a href="#"><img src=".assets/icon-githubactions.svg" alt="github-actions" align="center" width="56"></a></td>
-  </tr></tbody>
+  <tbody><tr><td align="center" width="99999">
+    <a href="#"><img src=".assets/icon-svg.svg" alt="svg" align="center" width="56"></a>
+    <picture><img src=".assets/divider.gif" align="center" height="48" width="1"/></picture>
+    <a href="#"><img src=".assets/icon-figma.svg" alt="figma" align="center" width="56"></a>
+    <picture><img src=".assets/divider.gif" align="center" height="48" width="1"/></picture>
+    <a href="#"><img src=".assets/icon-markdown.svg" alt="markdown" align="center" width="56"></a>
+    <picture><img src=".assets/divider.gif" align="center" height="48" width="1"/></picture>
+    <a href="#"><img src=".assets/icon-bash.svg" alt="bash" align="center" width="56"></a>
+    <picture><img src=".assets/divider.gif" align="center" height="48" width="1"/></picture>
+    <a href="#"><img src=".assets/icon-githubactions.svg" alt="github-actions" align="center" width="56"></a>
+  </td></tr></tbody>
 </table>
 
 ## PREVIEWS
