@@ -13,9 +13,9 @@
   </div>&nbsp;</td></tr></tbody>
   <tbody><tr><td align="center" width="99999">
     <a href="https://wikipedia.org/wiki/SVG"><img src=".assets/icon-svg.svg" alt="svg" align="center" width="56"></a>
-    <picture><img src=".assets/divider.gif" align="center" height="48" width="1"/></picture>
+    <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
     <a href="https://figma.com"><img src=".assets/icon-figma.svg" alt="figma" align="center" width="56"></a>
-    <picture><img src=".assets/divider.gif" align="center" height="48" width="1"/></picture>
+    <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
     <a href="https://wikipedia.org/wiki/Bash_(Unix_shell)"><img src=".assets/icon-bash.svg" alt="bash" align="center" width="56"></a>
   </td></tr></tbody>
 </table>
@@ -133,13 +133,17 @@
 
 ### BANNER PREVIEW
 
-<table><tr>
-  <td align="center" width="999999"><a href="https://angular.dev"><img src="source/angular.svg" alt="angular" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://chromium.org/developers"><img src="source/chromium.svg" alt="chromium" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://kotlinlang.org"><img src="source/kotlin.svg" alt="kotlin" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://kubernetes.io"><img src="source/kubernetes.svg" alt="kubernetes" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://spring.io"><img src="source/spring.svg" alt="spring" align="center" width="56"></a></td>
-</tr></table>
+<table><tr><td align="center" width="99999">
+  <a href="https://angular.dev"><img src="source/angular.svg" alt="angular" align="center" width="56"></a>
+  <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
+  <a href="https://chromium.org/developers"><img src="source/chromium.svg" alt="chromium" align="center" width="56"></a>
+  <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
+  <a href="https://kotlinlang.org"><img src="source/kotlin.svg" alt="kotlin" align="center" width="56"></a>
+  <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
+  <a href="https://kubernetes.io"><img src="source/kubernetes.svg" alt="kubernetes" align="center" width="56"></a>
+  <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
+  <a href="https://spring.io"><img src="source/spring.svg" alt="spring" align="center" width="56"></a>
+</td></tr></table>
 
 ### GATHER THE ICONS
 
@@ -151,14 +155,24 @@ for f in {angular,chromium,kotlin,kubernetes,spring}; do
 done
 ```
 
+### CREATE THE DIVIDER
+
+```sh
+magick -size 10x10 xc:"#646464" ".assets/divider.gif"
+```
+
 ### CREATE THE BANNER
 
 ```md
-<table><tr>
-  <td align="center" width="999999"><a href="https://angular.dev"><img src=".assets/icon-angular.svg" alt="angular" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://chromium.org/developers"><img src=".assets/icon-chromium.svg" alt="chromium" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://kotlinlang.org"><img src=".assets/icon-kotlin.svg" alt="kotlin" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://kubernetes.io"><img src=".assets/icon-kubernetes.svg" alt="kubernetes" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://spring.io"><img src=".assets/icon-spring.svg" alt="spring" align="center" width="56"></a></td>
-</tr></table>
+<table><tr><td align="center" width="99999">
+  <a href="https://angular.dev"><img src=".assets/icon-angular.svg" alt="angular" align="center" width="56"></a>
+  <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
+  <a href="https://chromium.org/developers"><img src=".assets/icon-chromium.svg" alt="chromium" align="center" width="56"></a>
+  <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
+  <a href="https://kotlinlang.org"><img src=".assets/icon-kotlin.svg" alt="kotlin" align="center" width="56"></a>
+  <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
+  <a href="https://kubernetes.io"><img src=".assets/icon-kubernetes.svg" alt="kubernetes" align="center" width="56"></a>
+  <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
+  <a href="https://spring.io"><img src=".assets/icon-spring.svg" alt="spring" align="center" width="56"></a>
+</td></tr></table>
 ```
