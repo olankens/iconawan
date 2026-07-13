@@ -12,11 +12,11 @@
     SVG technology icons built for seamless README.md integration and visual assets, each as standalone files with native dark mode support, ensuring optimal flexibility across all environments and consistent branding without extra configuration.
   </div>&nbsp;</td></tr></tbody>
   <tbody><tr><td align="center" width="99999">
-    <a href="https://wikipedia.org/wiki/SVG"><img src=".assets/icon-svg.svg" alt="svg" align="center" width="56"></a>
+    <a href="https://wikipedia.org/wiki/SVG"><img src=".assets/svg.svg" alt="svg" align="center" width="56"></a>
     <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
-    <a href="https://figma.com"><img src=".assets/icon-figma.svg" alt="figma" align="center" width="56"></a>
+    <a href="https://figma.com"><img src=".assets/figma.svg" alt="figma" align="center" width="56"></a>
     <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
-    <a href="https://wikipedia.org/wiki/Bash_(Unix_shell)"><img src=".assets/icon-bash.svg" alt="bash" align="center" width="56"></a>
+    <a href="https://wikipedia.org/wiki/Bash_(Unix_shell)"><img src=".assets/bash.svg" alt="bash" align="center" width="56"></a>
   </td></tr></tbody>
 </table>
 
@@ -151,7 +151,7 @@
 deposit=".assets" && mkdir -p "$deposit"
 baseurl="https://github.com/olankens/iconawan/raw/HEAD/source"
 for f in {angular,chromium,kotlin,kubernetes,spring}; do
-	curl -Lo "$deposit/icon-$f.svg" "$baseurl/$f.svg"
+	curl -Lo "$deposit/$f.svg" "$baseurl/$f.svg"
 done
 ```
 
@@ -165,14 +165,14 @@ magick -size 10x10 xc:"#646464" ".assets/divider.gif"
 
 ```md
 <table><tr><td align="center" width="99999">
-  <a href="https://angular.dev"><img src=".assets/icon-angular.svg" alt="angular" align="center" width="56"></a>
+  <a href="https://angular.dev"><img src=".assets/angular.svg" alt="angular" align="center" width="56"></a>
   <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
-  <a href="https://chromium.org/developers"><img src=".assets/icon-chromium.svg" alt="chromium" align="center" width="56"></a>
+  <a href="https://chromium.org/developers"><img src=".assets/chromium.svg" alt="chromium" align="center" width="56"></a>
   <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
-  <a href="https://kotlinlang.org"><img src=".assets/icon-kotlin.svg" alt="kotlin" align="center" width="56"></a>
+  <a href="https://kotlinlang.org"><img src=".assets/kotlin.svg" alt="kotlin" align="center" width="56"></a>
   <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
-  <a href="https://kubernetes.io"><img src=".assets/icon-kubernetes.svg" alt="kubernetes" align="center" width="56"></a>
+  <a href="https://kubernetes.io"><img src=".assets/kubernetes.svg" alt="kubernetes" align="center" width="56"></a>
   <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
-  <a href="https://spring.io"><img src=".assets/icon-spring.svg" alt="spring" align="center" width="56"></a>
+  <a href="https://spring.io"><img src=".assets/spring.svg" alt="spring" align="center" width="56"></a>
 </td></tr></table>
 ```
