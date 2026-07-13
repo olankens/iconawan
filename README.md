@@ -11,21 +11,12 @@
   <tbody><tr><td align="center" colspan="5" width="99999">&nbsp;<div>
     SVG technology icons built for seamless README.md integration and visual assets, each as standalone files with native dark mode support, ensuring optimal flexibility across all environments and consistent branding without extra configuration.
   </div>&nbsp;</td></tr></tbody>
-  <!--
-  <tbody><tr><td align="center" width="99999">
-    <a href="#"><img src=".assets/svg.svg" align="center" width="56"></a>
-    <a href="#"><img src=".assets/figma.svg" align="center" width="56"></a>
-    <a href="#"><img src=".assets/markdown.svg" align="center" width="56"></a>
-    <a href="#"><img src=".assets/bash.svg" align="center" width="56"></a>
-    <a href="#"><img src=".assets/githubactions.svg" align="center" width="56"></a>
-  </td></tr></tbody>
-  -->
   <tbody><tr>
-    <td align="center" width="999999"><a href="#"><img src=".assets/svg.svg" alt="svg" align="center" width="56"></a></td>
-    <td align="center" width="999999"><a href="#"><img src=".assets/figma.svg" alt="figma" align="center" width="56"></a></td>
-    <td align="center" width="999999"><a href="#"><img src=".assets/markdown.svg" alt="markdown" align="center" width="56"></a></td>
-    <td align="center" width="999999"><a href="#"><img src=".assets/bash.svg" alt="bash" align="center" width="56"></a></td>
-    <td align="center" width="999999"><a href="#"><img src=".assets/githubactions.svg" alt="github-actions" align="center" width="56"></a></td>
+    <td align="center" width="999999"><a href="#"><img src=".assets/icon-svg.svg" alt="svg" align="center" width="56"></a></td>
+    <td align="center" width="999999"><a href="#"><img src=".assets/icon-figma.svg" alt="figma" align="center" width="56"></a></td>
+    <td align="center" width="999999"><a href="#"><img src=".assets/icon-markdown.svg" alt="markdown" align="center" width="56"></a></td>
+    <td align="center" width="999999"><a href="#"><img src=".assets/icon-bash.svg" alt="bash" align="center" width="56"></a></td>
+    <td align="center" width="999999"><a href="#"><img src=".assets/icon-githubactions.svg" alt="github-actions" align="center" width="56"></a></td>
   </tr></tbody>
 </table>
 
@@ -105,32 +96,33 @@
   <tbody><tr>
     <td align="center" width="99999"><img src="source/openjdk.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/oracle.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/playwright.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/postgresql.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/postman.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/powershell.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/powershell.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/prisma.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/python.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/rabbitmq.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/react.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/redis.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/redis.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/riverpod.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/roblox.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/spring.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/springai.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/steam.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/steam.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/storybook.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/svg.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/tmdb.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/turborepo.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/typescript.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/typescript.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/ubuntu.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/windows.svg" align="center" width="56"></td>
   </tr></tbody>
@@ -155,7 +147,7 @@
 deposit=".assets" && mkdir -p "$deposit"
 baseurl="https://github.com/olankens/iconawan/raw/HEAD/source"
 for f in {angular,chromium,kotlin,kubernetes,spring}; do
-  curl -Lo "$deposit/$f.svg" "$baseurl/$f.svg"
+	curl -Lo "$deposit/$f.svg" "$baseurl/icon-$f.svg"
 done
 ```
 
@@ -163,10 +155,10 @@ done
 
 ```md
 <table><tr>
-  <td align="center" width="999999"><a href="https://angular.dev"><img src=".assets/angular.svg" alt="angular" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://chromium.org/developers"><img src=".assets/chromium.svg" alt="chromium" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://kotlinlang.org"><img src=".assets/kotlin.svg" alt="kotlin" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://kubernetes.io"><img src=".assets/kubernetes.svg" alt="kubernetes" align="center" width="56"></a></td>
-  <td align="center" width="999999"><a href="https://spring.io"><img src=".assets/spring.svg" alt="spring" align="center" width="56"></a></td>
+  <td align="center" width="999999"><a href="https://angular.dev"><img src=".assets/icon-angular.svg" alt="angular" align="center" width="56"></a></td>
+  <td align="center" width="999999"><a href="https://chromium.org/developers"><img src=".assets/icon-chromium.svg" alt="chromium" align="center" width="56"></a></td>
+  <td align="center" width="999999"><a href="https://kotlinlang.org"><img src=".assets/icon-kotlin.svg" alt="kotlin" align="center" width="56"></a></td>
+  <td align="center" width="999999"><a href="https://kubernetes.io"><img src=".assets/icon-kubernetes.svg" alt="kubernetes" align="center" width="56"></a></td>
+  <td align="center" width="999999"><a href="https://spring.io"><img src=".assets/icon-spring.svg" alt="spring" align="center" width="56"></a></td>
 </tr></table>
 ```
