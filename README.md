@@ -1,6 +1,6 @@
 <div align="center">
   <p><img src=".assets/icon.avif" align="center" width="120"></p>
-  <h1>ICONAWAN</h1>
+  <h1><samp>ICONAWAN</samp></h1>
 </div>
 
 <table>
