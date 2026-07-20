@@ -1,5 +1,5 @@
 <div align="center">
-  <p><img src=".assets/icon.avif" align="center" width="120"></p>
+  <p><img src=".assets/icon.avif" align="center" width="112"></p>
   <h1>ICONAWAN</h1>
 </div>
 
