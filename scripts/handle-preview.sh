@@ -11,7 +11,7 @@ mapfile -t ALL < <(find "$SRC" -maxdepth 2 -name "*.svg" | sort | head -n 32)
 for NUM in "${!ALL[@]}"; do
 	PNG="${ALL[$NUM]}"
 	COL=$([ $(((NUM / 8) % 2)) -eq 0 ] && { [ $((NUM % 2)) -eq 0 ] && echo "#333" || echo "#222"; } || { [ $((NUM % 2)) -eq 0 ] && echo "#222" || echo "#333"; })
-	magick "$PNG" \
+	magick -background none "$PNG" \
 		-strip \
 		-resize 80x80! \
 		-bordercolor "$COL" \
@@ -19,4 +19,4 @@ for NUM in "${!ALL[@]}"; do
 		"$TMP/$(basename "${PNG%.*}.png")"
 done
 
-{ magick montage "$TMP"/*.png -tile 8x4 -geometry +0+0 png:- | avifenc --stdin --input-format png "$OUT"; } || true
+{ magick montage -background none "$TMP"/*.png -tile 8x4 -geometry +0+0 png:- | avifenc --stdin --input-format png "$OUT"; } || true
