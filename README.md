@@ -32,48 +32,55 @@
 <table>
   <tbody><tr>
     <td align="center" width="99999"><img src="source/amazons3.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/amazonwebservice.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/android.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/androidstudio.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/angular.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/antora.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/antora.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/apachecassandra.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/apachekafka.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/apachepulsar.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/apple.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/argo.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/astro.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/argo.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/astro.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/bash.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/betterauth.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/chromium.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/claudecode.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/commitlint.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/claudecode.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/codex.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/commitlint.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/coolify.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/coreelec.svg" align="center" width="56"></td>
+  </tr></tbody>
+  <tbody><tr>
     <td align="center" width="99999"><img src="source/dart.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/django.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/docker.svg" align="center" width="56"></td>
-  </tr></tbody>
-  <tbody><tr>
     <td align="center" width="99999"><img src="source/dokploy.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/elasticsearch.svg" align="center" width="56"></td>
+  </tr></tbody>
+  <tbody><tr>
     <td align="center" width="99999"><img src="source/epicgames.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/expo.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/fastapi.svg" align="center" width="56"></td>
-  </tr></tbody>
-  <tbody><tr>
     <td align="center" width="99999"><img src="source/figma.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/flutter.svg" align="center" width="56"></td>
+  </tr></tbody>
+  <tbody><tr>
     <td align="center" width="99999"><img src="source/flyway.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/git.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/github.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/githubactions.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/graphql.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
-    <td align="center" width="99999"><img src="source/githubactions.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/grpc.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/h2.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/hibernate.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/hisenseu7nq.svg" align="center" width="56"></td>
@@ -112,44 +119,45 @@
     <td align="center" width="99999"><img src="source/nextdotjs.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/nodedotjs.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/nvidiashield.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/odoo.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/nx.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/odoo.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/openapi.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/openjdk.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/oracle.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/php.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/playwright.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/playwright.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/postgresql.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/postman.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/powershell.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/prisma.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/python.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/python.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/quarkus.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/rabbitmq.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/react.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/redis.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/riverpod.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/riverpod.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/roblox.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/spring.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/springai.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/steam.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/storybook.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/storybook.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/svg.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/symfony.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/tmdb.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/turborepo.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/typescript.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/typescript.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/ubuntu.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/upscayl.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/uv.svg" align="center" width="56"></td>
