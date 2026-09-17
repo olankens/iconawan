@@ -8,7 +8,19 @@
   "scripts": {
     "prepare": "simple-git-hooks"
   },
-  "commitlint": {
+  "cspell": {
+  "words": [
+   "hisense",
+   "simkl",
+   "trakt",
+   "zidoo",
+   "zidooz9x",
+   "upscayl",
+   "turborepo",
+   "symfony"
+  ]
+ },
+ "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
     ],

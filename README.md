@@ -157,25 +157,31 @@
     <td align="center" width="99999"><img src="source/roblox.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/simkl.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/spring.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/springai.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/steam.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/storybook.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/stripe.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/stripe.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/svg.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/symfony.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/tmdb.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/turborepo.svg" align="center" width="56"></td>
-    <td align="center" width="99999"><img src="source/typescript.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/trakt.svg" align="center" width="56"></td>
   </tr></tbody>
   <tbody><tr>
+    <td align="center" width="99999"><img src="source/turborepo.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/typescript.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/ubuntu.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/unknown.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/upscayl.svg" align="center" width="56"></td>
+  </tr></tbody>
+  <tbody><tr>
     <td align="center" width="99999"><img src="source/uv.svg" align="center" width="56"></td>
     <td align="center" width="99999"><img src="source/windows.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/zidoo.svg" align="center" width="56"></td>
+    <td align="center" width="99999"><img src="source/zidooz9x.svg" align="center" width="56"></td>
   </tr></tbody>
 </table>
 <!-- CEASE_TABLE -->
